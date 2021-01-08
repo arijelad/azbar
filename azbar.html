@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azbar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="data/style/azbar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />    
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"/>
+    <script src="data/javascript/script.js"></script>
+</head>
+<body style="background-color: black;">
+    <!-- Navigaciona traka -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light navbar-fixed-top">
+        <a class="navbar-brand" href="#"><img src="data/images/logo-azbar.png"   alt="Responsive image" style='max-width: 150px; '></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active-blue" href="azbar.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Naši proizvodi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Kontakt</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">O nama</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#" id="headerVideoLink" target="_blank" class="nav-link"><i class="fas fa-play"> Video</i></a>
+                </li> 
+            </ul>
+        </div>
+    </nav>
+    <!--<div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+        <iframe class="embed-responsive-item" width="1000" height="1000" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    -->
+    <!-- Slajd sa slikama i logo sa desne strane -->
+    <div class="row">
+        <div class="col-sm-12 col-lg-9">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="data/images/azbar1.jpg" class="img-fluid" alt="Azbar">
+                <div class="carousel-caption">
+                <h3>Azbar</h3>
+                <hr>
+                <p >Vrhunski sistemi za točenje pića!<br>Napokon i u Bosni i Hercegovini, najkvalitetnija oprema koja upotpunjuje najbolje svijetske barove.</p>
+              </div>
+            </div>
+
+
+            <div class="item">
+              <img src="data/images/azbar3.jpg" class="img-fluid" alt="Azbar">
+                <div class="carousel-caption">
+                <h3>Azbar</h3>
+                <hr>
+                <p>Vrhunski sistemi za točenje pića!<br>Napokon i u Bosni i Hercegovini, najkvalitetnija oprema koja upotpunjuje najbolje svijetske barove.</p>
+              </div>
+            </div>
+          </div>
+          <!-- kontrola slajda -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+        <div class="col-sm-12 col-lg-2 right-div">
+            <a href="azbar.html">
+                <img src="data/images/logo-azbar.png" class="row mx-auto d-block">
+            </a>
+            <a href="azbar.html">
+                <img src="data/images/v.png" class="row mt-5 mx-auto d-block">
+            </a>
+            <a href="azbar.html">
+                <img src="data/images/Grapos-logo.png" class="row mt-5 mx-auto d-block">
+            </a>
+        </div>
+    </div>
+    <div class="row betweenDiv"></div>
+    <div class="row description-azbar pb-5 pt-5">
+        <!-- Teze sa ikonama dostignuca neka -->
+        <div class="col-sm-12 col-lg-6 pl-5 pr-5 pt-5 h4">
+            <div class="row">
+                <span class="d-inline-block btn float-left pt-0 pb-0 col-sm-2 col-lg-2">
+                    <i class="fas fa-handshake"></i>
+                </span>
+                <span class="d-inline-block col-sm-10 col-lg-10 ">Zastupništvo potpisano 2020 godine.</span>
+            </div>
+            <div class="row pt-5">
+                <span class="d-inline-block btn float-left pb-0 col-sm-2 col-lg-2 ">
+                    <i class="fas fa-warehouse"></i>
+                </span>
+                <span class="d-inline-block col-sm-10 col-lg-10">Firma se nalazi u Travniku.</span>
+            </div>
+            <div class="row pt-5">
+                <span class="d-inline-block btn float-left pb-0 col-sm-2 col-lg-2">
+                    <i class="fas fa-user-shield"></i>
+                </span>
+                <span class="d-inline-block col-sm-10 col-lg-10">Garancija na kvalitet proizvoda.</span>
+            </div>
+            <div class="row pt-5">
+                <span class="d-inline-block btn float-left pb-0 col-sm-2 col-lg-2">
+                    <i class="fas fa-history"></i>
+                </span>
+                <span class="d-inline-block col-sm-10 col-lg-10">Kompanija AZBAR osnovana prije 30 godina.</span>
+            </div>
+            <div class="row pt-5">
+                <span class="d-inline-block btn float-left pt-0 pb-0 col-sm-2 col-lg-2">
+                    <i class="fas fa-info-circle"></i>
+                </span>
+                <span class="d-inline-block col-sm-10 col-lg-10">Tehnička i stručna pomoć uvijek dostupna!</span>
+            </div>
+        </div>
+        <!-- Generalno zastupnistvo neki detalji -->
+        <div class="col-sm-12 col-lg-6 pl-5 pr-5 ">
+            <h2 class="text-center">Glavni zastupnik za Bosnu i Hercegovinu</h2>
+            <hr>
+            <p class="text-left descriptionOvio">PUZ "OVIO" iz Travnika od 2020. godine ekskluzivni je zastupnik kanadske tvrtke AzBar Inc osnovane još 1986. godine sa sjedištem u Quebecu. AzBar se specijalizirao za projektiranje, dizajn, proizvodnju i prodaju specijalne opreme za barove, restorane i hotele koja ugostitelju omogućuje djelotvornu kontrolu i nadzor poslovanja, te učinkovitije i isplativije upravljanje ugostiteljskim objektima.
+            Zahvaljujući inovacijama, AzBar je nositelj više priznanja za izvrsnost, a više od 16.000 instalacija u Kanadi, Sjedinjenim Američkim Državama i Europi potvrđuje kvalitetu proizvoda i usluge.</p>
+            
+        </div>
+    </div> 
+    <div class="row betweenDiv"></div>
+    <div class="row details-azbar">
+               <div class="row" style="filter: brightness(100%);">
+                   <div class=" col-sm-12 col-lg-3 pt-5">
+                       <img src="data/images/az1.jpg" class="slike">
+                   </div>
+                   <div class="col-sm-12 col-lg-9 pt-3">
+                       <h3>Brže točenje i učinkovitije upravljanje</h3>
+                       <hr>
+                       <p> 
+                           U 3 sekunde napravite koktele! <a href="">Pogledajte video</a>
+                           <br>
+                           <br>
+                           Brže točenje i učinkovitije upravljanje.
+                           U 3 sekunde napravite koktele! See video
+                           <br>
+                           <br>
+                           Naspite žestoka pića, bezalkoholna pića i sokove, odjednom! Automatizirajte recepte, doze sipanja i posebne cijene. Nije potrebno učiti, Azbar uči za Vas.
+                           <br>
+                           <br>
+                           Naš najbolji proizvod? "Azbar Cocktail Tower" sistem. Integrirani korisnički prilagođeni BOSS softver omogućuje vam potpuno postavljanje sustava, prilagođavanje izvještaja, izradu personaliziranih tipkovnica i upravljanje zalihama.
+                           <br>
+                           <br>
+                           Sistem Azbar Cocktail Tower pogodan je za razne vrste ugostiteljskih objekata.
+                           <br>
+                           <br>
+                           Pogledajte specifikacije sustava <a href="">Azbar Cocktail Tower</a>.
+                      </p>
+                   </div>
+                </div>
+                <div class="row">
+                   <div class=" col-sm-12 col-lg-3 pt-5">
+                       <img src="data/images/az2.jpg" class="slike">
+                   </div>
+                   <div class="col-sm-12 col-lg-9 pt-3">
+                       <h3>Potpuno integrirano upravljanje barom</h3>
+                       <hr>
+                       <p>
+                           Sustav AZ200 pruža učinkovit rad u barovima i malim restoranima, od točenja do naplate, od izvještaja o vašoj prodaji do naručivanja kod dobavljača. Kontrolira vaše likere i vina u bocama, točeno pivo i vino, bezalkoholna pića i koktele, uz vrhunsku kontrolu. Korisnički prilagođeni sistemski softver omogućuje vam prilagodbu izvješća i potpunu konfiguraciju cijelog sustava.
+                           <br>
+                           <br>
+                           AZ200 sučelje je trenutno sa NekiPOS na našem tržištu.
+                           <br>
+                           <br>
+                           Pogledajte specifikacije sustava <a href="">Azbar AZ200</a>.
+                           <br>
+                           <br>
+                           Pogledajte specifikacije softvera <a href="">Azbar BOSS</a>
+                       </p>
+                   </div>
+                </div>
+                <div class="row pb-5">
+                   <div class=" col-sm-12 col-lg-3 pt-5">
+                       <img src="data/images/az3.jpg" class="slike">
+                   </div>
+                   <div class="col-sm-12 col-lg-9 pt-3">
+                       <h3>Učinkovita i diskretna kontrola</h3>
+                       <hr>
+                       <p>
+                           AZJunior sistem omogućava pojednostavljeni rad i održavanje te olakšava dobivanje podataka koje želite iz softvera za izvještaje.
+                           <br>
+                           <br>
+                           Doista učinkovit sistem za kontrolu alkoholnih pića stvoren posebno za male i srednje objekte.
+                           <br>
+                           <br>
+                           AZJunior sučelje je trenutno sa NekiPOS na našem tržištu.
+                           <br>
+                           <br>
+                           Pogledajte specifikacije za sistem <a href="">AZJunior</a>.
+                           <br>
+                           <br>
+                           Pogledajte specifikacije softvera <a href="">Azbar BOSS</a>
+                       </p>
+                   </div>
+                </div>
+            </div>
+    <div class="row betweenDiv"></div>
+    <div class="row ourPartners">
+        <h3 class="text-center col-sm-12 col-lg-12">Naši partneri</h3>
+        <div class="col-sm-12 col-lg-4 text-center">
+            <label onclick="prikaziKluboveHrvatska()">HRVATSKA</label>
+            <div class="col-sm-12 col-lg-12 listaHrvatska">
+                <ul>
+                    <li><a href="https://www.confusion.hr/rock-beer-club-alcatraz/" target="_blank">Caffe bar Alcatraz</a></li>
+                    <li><a href="https://www.khala.hr/hr/" target="_blank">Khala restaurant&bar</a></li>
+                    <li><a href="https://www.suncanihvar.com/hr" target="_blank">SUNČANI HVAR</a></li>
+                    <li><a href="https://www.fortgeorgecroatia.com/" target="_blank">Fort George</a></li>
+                    <li><a href="https://www.club-vanilla.hr/" target="_blank">Club Vanilla</a></li>
+                    <li><a href="https://www.clubrevelin.com/" target="_blank">Culture Club Revelin</a></li>
+                    <li><a href="https://www.coral-beach-club.com/"  target="_blank">Coral Beach Club</a></li>
+                    <li><a href="https://www.facebook.com/club.roko1/" target="_blank">Club Roko</a></li>
+                    <li><a href="https://www.facebook.com/nightclubmm/" target="_blank">Night Club MM</a></li>
+                    <li><a href="https://centralclub.hr/home" target="_blank">Central The Club</a></li>
+                    <li><a href="https://www.facebook.com/CaffeBarInbox/" target="_blank">Caffe Bar Inbox</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 text-center">
+            <label onclick="prikaziKluboveCrnaGora()" >CRNA GORA</label>
+            <div class="col-sm-12 col-lg-12 listaCrnaGora" >
+                <ul>
+                    <li><a href="https://www.desetka.co.me/" target="_blank">Restoran Bar Desetka</a></li>
+                    <li><a href="https://www.facebook.com/Kamenovobeach/" target="_blank">Kamenovo beach</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4 text-center">
+            <label onclick="prikaziKluboveSvijet()">OSTALI</label>
+            <div class="col-sm-12 col-lg-12 listaSvijet">
+                <ul>
+                    <li><a href="https://www.facebook.com/ZenBuddhaClub/" target="_blank">The Buddha Club</a></li>
+                    <li><a href="https://www.aruba.com/us/our-island" target="_blank">Island Aruba</a></li>
+                    <li><a href="https://www.facebook.com/ExecutiveClubNYC/" target="_blank">Executive Club NYC</a></li>
+                    <li><a href="https://four-points.marriott.com/" target="_blank">Four Points by Sheraton</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="row pt-2 pb-2">
+        <div class="col-sm-3 col-lg-3 text-center">
+            <h4>Proizvodi</h4>
+            <p>
+                AZ200 controller<br>
+                Cocktail tower<br>
+                AZGun dispenser<br>
+                AZJunior controller
+            </p>
+        </div>
+        <div class="col-sm-3 col-lg-3 text-center">
+            <h4>Kontakt</h4>
+            <p>
+                <b>Telefon:</b> +387 30 518 597<br>
+                <b>Fax:</b> +387 30 518 597<br>
+                <b>E-mail:</b> <a href="mailto:puz.ovio@gmail.com">puz.ovio@gmail.com</a><br>
+                <b>Adresa:</b> Fatmići L/6, Travnik 72270
+            </p>
+        </div>
+        <div class="col-sm-3 col-lg-3 text-center">
+            <a href=""><h4>O nama</h4></a>
+        </div>
+        <div class="col-sm-3 col-lg-3 text-center">
+            <h4>VIDEO</h4>
+        </div>
+    </footer>
+</body>
+<script>
+    $(document).ready(function() {
+        $('#headerVideoLink').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  });         
+});
+</script>
+</html>
